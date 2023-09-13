@@ -1,6 +1,10 @@
 /***********************************
       GLOBAL STYLES
 ************************************/
+* {
+  padding: 2px 10px;
+}
+
 body {
   position: relative;
   color: #343434;
@@ -20,31 +24,60 @@ img {
   width: 300px;
 }
 
-/************* END OF BODY STYLES **************/
+a {
+  color: orange;
+}
 
-/**************** Main section styles *************/
+a:hover {
+  text-decoration: none;
+}
 
-/********* Profile styles ********************/
+/*********************** 
+END OF BODY STYLES 
+**************************/
 
+/*********************** 
+Main section styles 
+*************************/
+
+/****** Header Styles ********/
 header {
   background: #2f3061;
   color: #f7fff7;
 }
 
+/******** project styles *******************/
+
 .projects {
   background: #f7fff7;
+  margin: 10px 0px;
 }
+
+.projects section a {
+  color: #f7fff7;
+  background: #343434;
+  padding: 8px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.projects section a:hover {
+  background: #636262;
+}
+
+/******** Work Experience styles *******************/
 
 .workExperience {
   background: #a1c6d7;
 }
 
-footer,
-footer a {
+/********* footer Styles ***************/
+
+footer {
   background: #343434;
-  color: #f7fff7;
+  color: orange;
 }
 
-/********* End of Profile styles ********************/
-
-/*************** End of Main section styles ************/
+/*************************** 
+End of Main section styles 
+*******************************/
