@@ -1,6 +1,11 @@
+/***********************************
+      GLOBAL STYLES
+************************************/
 body {
   position: relative;
+  color: #343434;
 }
+
 body::before {
   content: "";
   background-image: url("../images/background.jpg");
@@ -14,3 +19,32 @@ body::before {
 img {
   width: 300px;
 }
+
+/************* END OF BODY STYLES **************/
+
+/**************** Main section styles *************/
+
+/********* Profile styles ********************/
+
+header {
+  background: #2f3061;
+  color: #f7fff7;
+}
+
+.projects {
+  background: #f7fff7;
+}
+
+.workExperience {
+  background: #a1c6d7;
+}
+
+footer,
+footer a {
+  background: #343434;
+  color: #f7fff7;
+}
+
+/********* End of Profile styles ********************/
+
+/*************** End of Main section styles ************/
