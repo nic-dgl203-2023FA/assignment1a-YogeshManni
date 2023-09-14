@@ -1,9 +1,6 @@
 /***********************************
       GLOBAL STYLES
 ************************************/
-* {
-  padding: 2px 10px;
-}
 
 body {
   position: relative;
@@ -30,6 +27,12 @@ a {
 
 a:hover {
   text-decoration: none;
+}
+
+.content-wrap {
+  width: 800px;
+  margin: 0 auto;
+  padding: 60px 0;
 }
 
 /*********************** 
@@ -59,6 +62,7 @@ header {
   padding: 8px;
   border-radius: 5px;
   text-decoration: none;
+  display: inline-block;
 }
 
 .projects section a:hover {
