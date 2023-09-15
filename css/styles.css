@@ -5,6 +5,8 @@
 body {
   position: relative;
   color: #343434;
+
+  font-family: "Montserrat", sans-serif;
 }
 
 body::before {
@@ -35,8 +37,13 @@ a:hover {
   padding: 60px 0;
 }
 
+h1,
+h2 {
+  font-family: "Caveat", cursive;
+}
+
 /*********************** 
-END OF BODY STYLES 
+END OF GLOBAL STYLES 
 **************************/
 
 /*********************** 
