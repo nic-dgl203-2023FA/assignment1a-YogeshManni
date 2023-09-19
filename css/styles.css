@@ -75,6 +75,16 @@ h2 {
 h3 {
   margin-bottom: 0;
 }
+
+.divider > section {
+  border-bottom: 1px dashed #343434;
+  padding: 25px 0;
+}
+
+.divider > section:last-of-type {
+  border-style: none;
+}
+
 /*********************** 
 END OF GLOBAL STYLES 
 **************************/
@@ -112,8 +122,6 @@ header {
 
 .project-items {
   overflow: hidden;
-  border-bottom: 1px dashed #343434;
-  padding: 25px 0;
 }
 .project-items img {
   float: left;
