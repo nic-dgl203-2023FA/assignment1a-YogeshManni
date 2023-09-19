@@ -76,6 +76,7 @@ Main section styles
 header {
   background: #2f3061;
   color: #f7fff7;
+  text-align: center;
 }
 
 /******** project styles *******************/
@@ -122,8 +123,20 @@ header {
 footer {
   background: #343434;
   color: orange;
+  text-align: center;
 }
 
+.contact-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-list a {
+  padding: 15px;
+  display: inline-block;
+}
 /*************************** 
 End of Main section styles 
 *******************************/
