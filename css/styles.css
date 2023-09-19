@@ -2,6 +2,15 @@
       GLOBAL STYLES
 ************************************/
 
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
 body {
   position: relative;
   color: #343434;
@@ -24,6 +33,7 @@ body::before {
 
 img {
   width: 300px;
+  height: 230px;
 }
 
 a {
@@ -88,6 +98,19 @@ header {
   background: #636262;
 }
 
+.project-items {
+  overflow: hidden;
+  border-bottom: 1px dashed #343434;
+  padding: 25px 0;
+}
+.project-items img {
+  float: left;
+  margin-right: 20px;
+}
+
+.project-items h3 {
+  margin-top: 0;
+}
 /******** Work Experience styles *******************/
 
 .workExperience {
