@@ -144,6 +144,18 @@ header {
   column-gap: 20px;
 }
 
+/********** Education styles *******************/
+
+.education {
+  background-image: url("../images/joanna-kosinska-unsplash.jpg");
+  background-size: cover;
+  background-position: top right;
+  padding-bottom: 100px;
+}
+.education p {
+  width: 60%;
+}
+
 /********* footer Styles ***************/
 
 footer {
