@@ -9,12 +9,34 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
   </head>
   <body>
+    <!--------------- Navigation start ------------->
+    <nav>
+      <input type="checkbox" id="check" />
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label class="logo">Yogesh's portfolio</label>
+      <ul>
+        <li><a class="active" href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projectsID">Projects</a></li>
+        <li><a href="#workSection">Work Experience</a></li>
+        <li><a href="#educationSection">Education</a></li>
+        <li><a href="#socials">Socials</a></li>
+      </ul>
+    </nav>
+    <!--------------- Navigation Ends ------------->
+
     <main>
       <!-- ***********************  ABOUT / PROFILE  *********************** -->
       <header>
-        <div class="content-wrap">
+        <div id="about" class="content-wrap">
           <h1>Yogesh Manni</h1>
           <h2>Software Developer</h2>
 
@@ -43,7 +65,7 @@
       </header>
 
       <!-- ********************  PROJECTS / PORTFOLIO  ********************* -->
-      <section class="projects">
+      <section id="projectsID" class="projects">
         <div class="content-wrap divider">
           <h2>Featured Projects</h2>
           <p>
@@ -125,7 +147,7 @@
       </section>
 
       <!-- ***********************  WORK EXPERIENCE  *********************** -->
-      <section class="workExperience">
+      <section id="workSection" class="workExperience">
         <div class="content-wrap item-details divider">
           <h2>Work Experience</h2>
           <p>
@@ -245,7 +267,7 @@
       </section>
 
       <!-- ******************  EDUCATION & CERTIFICATIONS ****************** -->
-      <section class="education">
+      <section id="educationSection" class="education">
         <div class="content-wrap item-details">
           <h2>Education</h2>
 
@@ -290,7 +312,7 @@
       </section>
 
       <!-- *****************  CONTACT INFO / SOCIAL MEDIA  ***************** -->
-      <footer>
+      <footer id="socials">
         <div class="content-wrap">
           <h2>Let's Keep in Touch!</h2>
 
@@ -335,7 +357,7 @@
         achieve same functionality is by using JS (can be done by only 1 modal)---------------->
       <div id="myPopup1" class="overlay">
         <div class="innerPopup">
-          <h2 style="display: inline-block">Enlarge View</h2>
+          <h2 style="display: inline-block">Enlarged View</h2>
           <a class="close" href="#">&times;</a>
           <div class="content" id="papap">
             <img
@@ -349,7 +371,7 @@
 
       <div id="myPopup2" class="overlay">
         <div class="innerPopup">
-          <h2 style="display: inline-block">Enlarge View</h2>
+          <h2 style="display: inline-block">Enlarged View</h2>
           <a class="close" href="#">&times;</a>
           <div class="content" id="papap">
             <img
@@ -363,7 +385,7 @@
 
       <div id="myPopup3" class="overlay">
         <div class="innerPopup">
-          <h2 style="display: inline-block">Enlarge View</h2>
+          <h2 style="display: inline-block">Enlarged View</h2>
           <a class="close" href="#">&times;</a>
           <div class="content" id="papap">
             <img
@@ -377,7 +399,7 @@
 
       <div id="myPopup4" class="overlay">
         <div class="innerPopup">
-          <h2 style="display: inline-block">Enlarge View</h2>
+          <h2 style="display: inline-block">Enlarged View</h2>
           <a class="close" href="#">&times;</a>
           <div class="content" id="papap">
             <img
