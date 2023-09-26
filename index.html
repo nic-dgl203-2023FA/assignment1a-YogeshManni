@@ -55,7 +55,9 @@
 
           <!-- Copy the whole <section> block to add more projects. -->
           <section class="project-items">
-            <img src="images\onspot1.png" alt="description of image" />
+            <a href="#myPopup">
+              <img src="images\onspot1.png" alt="description of image" />
+            </a>
             <h3>Onspot</h3>
 
             <p>
@@ -71,7 +73,9 @@
           </section>
 
           <section class="project-items">
-            <img src="images\teamy1.png" alt="description of image" />
+            <a href="#myPopup">
+              <img src="images\teamy1.png" alt="description of image" />
+            </a>
             <h3>Teamy</h3>
 
             <p>
@@ -86,7 +90,9 @@
           </section>
 
           <section class="project-items">
-            <img src="images\pastebin1.png" alt="Pastebin Copy & Paste" />
+            <a href="#myPopup">
+              <img src="images\pastebin1.png" alt="Pastebin Copy & Paste" />
+            </a>
             <h3>Pastebin Copy & Paste</h3>
 
             <p>
@@ -99,7 +105,9 @@
           </section>
 
           <section class="project-items">
-            <img src="images\portfolio.png" alt="Yogesh's Portfolio" />
+            <a href="#myPopup">
+              <img src="images\portfolio.png" alt="Yogesh's Portfolio"
+            /></a>
             <h3>Bootstrap Portfolio</h3>
 
             <p>
@@ -320,6 +328,23 @@
           </ul>
         </div>
       </footer>
+
+      <!--------------   Popup  -------------------------->
+      <div id="myPopup" class="overlay">
+        <div class="innerPopup">
+          <h2 style="display: inline-block">Enlarge View</h2>
+          <a class="close" href="#">&times;</a>
+          <div class="content">
+            <img
+              style="width: 100%; height: 100%"
+              src="images\portfolio.png"
+              alt="Yogesh's Portfolio"
+            />
+          </div>
+        </div>
+      </div>
+
+      <!----------------------------------------->
     </main>
   </body>
 </html>
