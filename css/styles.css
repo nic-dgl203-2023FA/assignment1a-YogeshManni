@@ -121,9 +121,18 @@ header {
   margin-top: 0;
 }
 /******** Work Experience styles *******************/
-
 .workExperience {
-  background: #a1c6d7;
+  position: relative;
+  font-weight: 600;
+}
+.workExperience::before {
+  content: "";
+  background-image: url("../images/background.jpg");
+  position: absolute;
+  width: 100%;
+  opacity: 0.3;
+  height: 100%;
+  z-index: -2;
 }
 
 /********** Education styles *******************/
@@ -361,9 +370,6 @@ a:hover {
     color: #0082e6;
   }
   #check:checked ~ ul {
-    left: 0;
-  }
-  nav ul li:checked {
     left: 0;
   }
 }
