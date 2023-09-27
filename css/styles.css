@@ -49,7 +49,9 @@ h2 {
 }
 h1,
 h2 {
-  font-family: "Caveat", cursive;
+  /* font-family: "Caveat", cursive; */
+  font-family: "Fuggles", cursive;
+  font-family: "Martian Mono", monospace;
   font-weight: 400;
   margin: 0;
 }
@@ -251,6 +253,7 @@ nav {
   background: #28282b;
   height: 80px;
   width: 100%;
+  z-index: 999;
 }
 label.logo {
   color: white;
