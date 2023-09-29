@@ -1,22 +1,11 @@
 # Linkedin Learning CSS
-  Yogesh Manni (n0205600)
+
+Yogesh Manni (n0205600)
 
 ## About Repo
-  This repository is created for NIC CSS classes following Linkedin learning Advanced CSS Tutorials.
 
-## Progress
-   This Project is completed till the tutorials of Linkedin Learning by christina, but can be improved if time permits.
+This repository is created for NIC CSS classes following Linkedin learning Advanced CSS Tutorials.
 
-   ### Some improvements that can be done
-  - [x] Animating the content
-  - [x] Adding more sections (Resume, Location, Testimony) 
-  - [x] Better theme
-  - [x] Introducing Backend (Sending emails)
-  - [x] Bootstrap 
-  
-  
-  
-  
-  
-  
-  
+## About this branch
+
+This branch is continued after main branch and has latest code for the project. Some changes have been made as asked by instructor and made website more responsive. Still can be impoved a lot.
