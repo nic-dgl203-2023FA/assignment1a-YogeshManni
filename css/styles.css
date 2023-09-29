@@ -296,6 +296,10 @@ a:hover {
   display: none;
 }
 
+.navList li a:focus {
+  background-color: #0082e6;
+  color: #0082e6;
+}
 /************** Resposnive styles **********/
 
 @media screen and (min-width: 750px) {
@@ -372,6 +376,7 @@ a:hover {
   }
   a:hover,
   a.active {
+    background-color: none;
     background: none;
     color: #0082e6;
   }
