@@ -403,3 +403,29 @@ a:hover {
     font-size: 15px !important;
   }
 }
+
+.a_body {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.a_header {
+  text-align: center;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr; /* On small screens, change to 1 column */
+  }
+}
