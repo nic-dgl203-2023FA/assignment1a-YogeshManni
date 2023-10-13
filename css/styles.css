@@ -531,3 +531,20 @@ a:hover {
     transform: perspective(800px) rotateX(0deg);
   }
 }
+
+.cubicAnimation {
+  width: 100px;
+  height: 100px;
+  background-color: #0074d9;
+  animation: scaleEffect 2s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite
+    alternate;
+}
+
+@keyframes scaleEffect {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.5);
+  }
+}
