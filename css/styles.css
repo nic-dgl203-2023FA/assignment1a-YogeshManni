@@ -455,3 +455,27 @@ a:hover {
 .word-animation:hover {
   font-size: 18px;
 }
+
+.svg-container {
+  display: inline-block;
+  overflow: hidden;
+}
+
+.animated-svg {
+  transform: translateX(0);
+  transition: transform 1s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+
+.animated-svg:hover {
+  animation: moveBackAndForth 2s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite
+    alternate;
+}
+
+@keyframes moveBackAndForth {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100px);
+  }
+}
