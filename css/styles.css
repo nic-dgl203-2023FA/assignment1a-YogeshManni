@@ -509,3 +509,25 @@ a:hover {
     border-color: blue;
   }
 }
+
+.flipContainer {
+  text-align: center;
+}
+
+.flip-word {
+  font-size: 24px;
+  display: inline-block;
+  animation: flipUpDown 2s ease-in-out infinite;
+}
+
+@keyframes flipUpDown {
+  0% {
+    transform: perspective(800px) rotateX(0deg);
+  }
+  50% {
+    transform: perspective(800px) rotateX(180deg);
+  }
+  100% {
+    transform: perspective(800px) rotateX(0deg);
+  }
+}
