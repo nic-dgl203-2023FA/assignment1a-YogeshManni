@@ -404,6 +404,7 @@ a:hover {
   }
 }
 
+/*******  Animations  css ********/
 .a_body {
   font-family: Arial, sans-serif;
   max-width: 800px;
@@ -428,4 +429,20 @@ a:hover {
   .grid {
     grid-template-columns: 1fr; /* On small screens, change to 1 column */
   }
+}
+
+.animated-button {
+  background-color: #0074d9;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.5s ease-in-out, color 0.3s ease-in-out,
+    border-radius 0.6s ease-in-out;
+}
+
+.animated-button:hover {
+  background-color: #ff4136;
+  color: #000;
+  border-radius: 20px;
 }
