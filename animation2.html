@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SVG Animations</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!--------------- Navigation start ------------->
+    <nav>
+      <input type="checkbox" id="check" />
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label class="logo">Yogesh's portfolio</label>
+      <ul class="navList">
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#projectsID">Projects</a></li>
+        <li><a href="index.html#workSection">Work Experience</a></li>
+        <li><a href="index.html#educationSection">Education</a></li>
+        <li><a href="index.html#socials">Socials</a></li>
+        <li><a href="animations.html">Motion</a></li>
+        <li><a href="animation2.html">Animation</a></li>
+      </ul>
+    </nav>
+    <!--------------- Navigation Ends ------------->
+    <div class="svg-container">
+      <svg width="400" height="200">
+        <circle cx="50" cy="100" r="20" fill="blue">
+          <animate
+            attributeName="r"
+            from="20"
+            to="40"
+            dur="2s"
+            begin="0s"
+            repeatCount="indefinite"
+          />
+        </circle>
+        <rect x="100" y="60" width="40" height="40" fill="green">
+          <animate
+            attributeName="width"
+            from="40"
+            to="60"
+            dur="2s"
+            begin="0s"
+            repeatCount="indefinite"
+          />
+        </rect>
+        <polygon points="200,20 230,60 170,60" fill="orange">
+          <animate
+            attributeName="points"
+            from="200,20 230,60 170,60"
+            to="200,40 230,80 170,80"
+            dur="2s"
+            begin="0s"
+            repeatCount="indefinite"
+          />
+        </polygon>
+        <path d="M300,80 C330,30 370,30 400,80" fill="red">
+          <animate
+            attributeName="d"
+            from="M300,80 C330,30 370,30 400,80"
+            to="M300,80 C330,130 370,130 400,80"
+            dur="2s"
+            begin="0s"
+            repeatCount="indefinite"
+          />
+        </path>
+        <ellipse cx="100" cy="150" rx="30" ry="15" fill="purple">
+          <animate
+            attributeName="rx"
+            from="30"
+            to="50"
+            dur="2s"
+            begin="0s"
+            repeatCount="indefinite"
+          />
+        </ellipse>
+        <line x1="220" y1="150" x2="280" y2="150" stroke="black">
+          <animate
+            attributeName="x1"
+            from="220"
+            to="260"
+            dur="2s"
+            begin="0s"
+            repeatCount="indefinite"
+          />
+          <animate
+            attributeName="x2"
+            from="280"
+            to="320"
+            dur="2s"
+            begin="0s"
+            repeatCount="indefinite"
+          />
+        </line>
+      </svg>
+
+      <div class="text-container">
+        <p class="animated-text">Yogesh Manni.......</p>
+        <p class="path-text">CSS ANIMATIONS>>>>>>>>>></p>
+      </div>
+    </div>
+  </body>
+</html>
