@@ -347,7 +347,7 @@ a:hover {
   }
 }
 
-@media (max-width: 1395px) {
+@media (max-width: 1695px) {
   nav ul li a {
     font-size: 16px;
   }
@@ -391,7 +391,7 @@ a:hover {
     font-size: 20px !important;
   }
   .navList li a {
-    font-size: 15px !important;
+    font-size: 10px !important;
   }
 }
 
@@ -400,7 +400,7 @@ a:hover {
     margin: 50px 0px 50px 130px;
   }
   .navList li a {
-    font-size: 15px !important;
+    font-size: 10px !important;
   }
 }
 
@@ -409,6 +409,7 @@ a:hover {
   font-family: Arial, sans-serif;
   max-width: 800px;
   margin: 0 auto;
+  padding-top: 100px;
 }
 
 .a_header {
@@ -547,4 +548,45 @@ a:hover {
   100% {
     transform: scale(1.5);
   }
+}
+
+/*********** Aniamtion 2 file css ****************/
+
+@keyframes movePath {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(300px);
+  }
+}
+
+.text-container {
+  position: relative;
+}
+
+.animated-text {
+  animation: slideIn 2s ease-in-out infinite;
+}
+
+.path-text {
+  animation: movePath 2s linear infinite;
+  position: absolute;
+  top: 50px;
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.svg-container {
+  display: flex;
+
+  justify-content: center;
+  padding-top: 100px;
 }
