@@ -3,33 +3,64 @@
   <head>
     <title>CSS Animations</title>
     <link rel="stylesheet" href="css/styles.css" />
-  </head>
-  <body class="a_body">
-    <header class="a_header">
-      <h1>CSS Animations</h1>
-    </header>
-    <div class="grid">
-      <div><button class="animated-button">Yogesh Manni</button></div>
-      <div><p class="word-animation">Yogesh Manni</p></div>
-      <div class="svg-container">
-        <svg
-          class="animated-svg"
-          xmlns="http://www.w3.org/2000/svg"
-          width="50"
-          height="50"
-          viewBox="0 0 50 50"
-        >
-          <circle cx="25" cy="25" r="20" fill="#0074d9" />
-        </svg>
-      </div>
-      <div class="autoType">
-        <p>Yogesh Manni (N0205600)</p>
-      </div>
-      <div class="flipContainer">
-        <span class="flip-word">Yogesh Manni</span>
-      </div>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
 
-      <div class="cubicAnimation"></div>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!--------------- Navigation start ------------->
+    <nav>
+      <input type="checkbox" id="check" />
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label class="logo">Yogesh's portfolio</label>
+      <ul class="navList">
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#projectsID">Projects</a></li>
+        <li><a href="index.html#workSection">Work Experience</a></li>
+        <li><a href="index.html#educationSection">Education</a></li>
+        <li><a href="index.html#socials">Socials</a></li>
+        <li><a href="animations.html">Motion</a></li>
+        <li><a href="animation2.html">Animation</a></li>
+      </ul>
+    </nav>
+    <!--------------- Navigation Ends ------------->
+    <div class="a_body">
+      <header class="a_header">
+        <h1>CSS Animations</h1>
+      </header>
+      <div class="grid">
+        <div><button class="animated-button">Yogesh Manni</button></div>
+        <div><p class="word-animation">Yogesh Manni</p></div>
+        <div class="svg-container">
+          <svg
+            class="animated-svg"
+            xmlns="http://www.w3.org/2000/svg"
+            width="50"
+            height="50"
+            viewBox="0 0 50 50"
+          >
+            <circle cx="25" cy="25" r="20" fill="#0074d9" />
+          </svg>
+        </div>
+        <div class="autoType">
+          <p>Yogesh Manni (N0205600)</p>
+        </div>
+        <div class="flipContainer">
+          <span class="flip-word">Yogesh Manni</span>
+        </div>
+
+        <div class="cubicAnimation"></div>
+      </div>
     </div>
   </body>
 </html>
