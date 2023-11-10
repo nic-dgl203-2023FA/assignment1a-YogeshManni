@@ -33,7 +33,7 @@ a:hover {
   text-decoration: none;
 }
 
-.content-wrap {
+.header__content-wrap {
   width: 85%;
   max-width: 800px;
   margin: 0 auto;
@@ -56,11 +56,11 @@ h2 {
   margin: 0;
 }
 
-.item-details h3 + p {
+.workExperience__content-wrap h3 + p {
   font-style: italic;
 }
 
-.item-details h3 ~ p {
+.workExperience__content-wrap h3 ~ p {
   margin: 0;
 }
 
@@ -115,11 +115,11 @@ header {
   background: #636262;
 }
 
-.project-items {
+.projects__items {
   overflow: hidden;
 }
 
-.project-items h3 {
+.projects__items h3 {
   margin-top: 0;
 }
 /******** Work Experience styles *******************/
@@ -303,12 +303,12 @@ a:hover {
 /************** Resposnive styles **********/
 
 @media screen and (min-width: 750px) {
-  .project-items img {
+  .projects__items img {
     float: left;
     margin-right: 20px;
   }
 
-  .job-item {
+  .workExperience__job-item {
     display: grid;
     grid-template-columns: 1fr 2fr;
     column-gap: 20px;
