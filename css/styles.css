@@ -33,7 +33,7 @@ a:hover {
   text-decoration: none;
 }
 
-.header__content-wrap {
+.header__workExperience__job-item {
   width: 85%;
   max-width: 800px;
   margin: 0 auto;
@@ -56,11 +56,11 @@ h2 {
   margin: 0;
 }
 
-.workExperience__content-wrap h3 + p {
+.workExperience__workExperience__job-item h3 + p {
   font-style: italic;
 }
 
-.workExperience__content-wrap h3 ~ p {
+.workExperience__workExperience__job-item h3 ~ p {
   margin: 0;
 }
 
@@ -161,12 +161,12 @@ footer {
   color: orange;
 }
 
-.contact-list {
+.socials__contact-list {
   list-style-type: none;
   padding: 0;
 }
 
-.contact-list a {
+.socials__contact-list a {
   padding: 15px;
   display: inline-block;
 }
@@ -317,7 +317,7 @@ a:hover {
   footer {
     text-align: center;
   }
-  .contact-list {
+  .socials__contact-list {
     display: flex;
     justify-content: center;
   }
@@ -338,7 +338,7 @@ a:hover {
     line-height: 1;
   }
 
-  .contact-list a {
+  .socials__contact-list a {
     padding: 5px;
   }
 
