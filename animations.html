@@ -16,34 +16,37 @@
   </head>
   <body>
     <!--------------- Navigation start ------------->
-    <nav>
-      <input type="checkbox" id="check" />
-      <label for="check" class="checkbtn">
+    <nav class="navbar">
+      <input type="checkbox" id="navbar__check" />
+      <label for="check" class="navbar__label">
         <i class="fas fa-bars"></i>
       </label>
-      <label class="logo">Yogesh's portfolio</label>
-      <ul class="navList">
-        <li><a class="active" href="index.html">Home</a></li>
-        <li><a href="index.html#about">About</a></li>
-        <li><a href="index.html#projectsID">Projects</a></li>
-        <li><a href="index.html#workSection">Work Experience</a></li>
-        <li><a href="index.html#educationSection">Education</a></li>
-        <li><a href="index.html#socials">Socials</a></li>
+      <label class="navbar__logo">Yogesh's portfolio</label>
+      <ul class="navbar__list">
+        <li><a class="navbar__link_active" href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projectsID">Projects</a></li>
+        <li><a href="#workSection">Work Experience</a></li>
+        <li><a href="#educationSection">Education</a></li>
+        <li><a href="#socials">Socials</a></li>
         <li><a href="animations.html">Motion</a></li>
         <li><a href="animation2.html">Animation</a></li>
       </ul>
     </nav>
     <!--------------- Navigation Ends ------------->
-    <div class="a_body">
-      <header class="a_header">
+
+    <div class="ani-container">
+      <header class="ani-container__header">
         <h1>CSS Animations</h1>
       </header>
-      <div class="grid">
-        <div><button class="animated-button">Yogesh Manni</button></div>
-        <div><p class="word-animation">Yogesh Manni</p></div>
-        <div class="svg-container">
+      <div class="ani-container__grid">
+        <div>
+          <button class="ani-container__animated-button">Yogesh Manni</button>
+        </div>
+        <div><p class="ani-container__word-animation">Yogesh Manni</p></div>
+        <div class="ani-container__svg-container">
           <svg
-            class="animated-svg"
+            class="ani-container__animated-svg"
             xmlns="http://www.w3.org/2000/svg"
             width="50"
             height="50"
@@ -52,14 +55,14 @@
             <circle cx="25" cy="25" r="20" fill="#0074d9" />
           </svg>
         </div>
-        <div class="autoType">
+        <div class="ani-container__autoType">
           <p>Yogesh Manni (N0205600)</p>
         </div>
-        <div class="flipContainer">
-          <span class="flip-word">Yogesh Manni</span>
+        <div class="ani-container__flipContainer">
+          <span class="ani-container__flip-word">Yogesh Manni</span>
         </div>
 
-        <div class="cubicAnimation"></div>
+        <div class="ani-container__cubicAnimation"></div>
       </div>
     </div>
   </body>

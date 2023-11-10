@@ -405,14 +405,14 @@ a:hover {
 }
 
 /*******  Animations  css ********/
-.a_body {
+.ani-container {
   font-family: Arial, sans-serif;
   max-width: 800px;
   margin: 0 auto;
   padding-top: 100px;
 }
 
-.a_header {
+.ani-container__header {
   text-align: center;
   background-color: #333;
   color: white;
@@ -420,19 +420,19 @@ a:hover {
   margin-bottom: 20px;
 }
 
-.grid {
+.ani-container__grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
 }
 
 @media (max-width: 768px) {
-  .grid {
+  .ani-container__grid {
     grid-template-columns: 1fr; /* On small screens, change to 1 column */
   }
 }
 
-.animated-button {
+.ani-container__animated-button {
   background-color: #0074d9;
   color: #fff;
   border: none;
@@ -442,32 +442,32 @@ a:hover {
     border-radius 0.6s ease-in-out;
 }
 
-.animated-button:hover {
+.ani-container__animated-button:hover {
   background-color: #ff4136;
   color: #000;
   border-radius: 20px;
 }
 
-.word-animation {
+.ani-container__word-animation {
   font-size: 24px;
   transition: font-size 0.5s;
 }
 
-.word-animation:hover {
+.ani-container__word-animation:hover {
   font-size: 18px;
 }
 
-.svg-container {
+.svg-socials__contact-list {
   display: inline-block;
   overflow: hidden;
 }
 
-.animated-svg {
+.ani-container__animated-svg {
   transform: translateX(0);
   transition: transform 1s cubic-bezier(0.68, -0.55, 0.27, 1.55);
 }
 
-.animated-svg:hover {
+.ani-container__animated-svg:hover {
   animation: moveBackAndForth 2s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite
     alternate;
 }
@@ -481,7 +481,7 @@ a:hover {
   }
 }
 
-.autoType p {
+.ani-container__autoType p {
   color: black;
 
   overflow: hidden;
@@ -511,11 +511,11 @@ a:hover {
   }
 }
 
-.flipContainer {
+.flipsocials__contact-list {
   text-align: center;
 }
 
-.flip-word {
+.ani-container__flip-word {
   font-size: 24px;
   display: inline-block;
   animation: flipUpDown 2s ease-in-out infinite;
@@ -533,7 +533,7 @@ a:hover {
   }
 }
 
-.cubicAnimation {
+.ani-container__cubicAnimation {
   width: 100px;
   height: 100px;
   background-color: #0074d9;
@@ -561,7 +561,7 @@ a:hover {
   }
 }
 
-.text-container {
+.text-socials__contact-list {
   position: relative;
 }
 
@@ -584,7 +584,7 @@ a:hover {
   }
 }
 
-.svg-container {
+.svg-socials__contact-list {
   display: flex;
 
   justify-content: center;
