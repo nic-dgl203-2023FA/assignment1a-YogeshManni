@@ -255,7 +255,7 @@ nav {
   width: 100%;
   z-index: 999;
 }
-label.logo {
+label.navbar__logo {
   color: white;
   font-size: 35px;
   line-height: 80px;
@@ -278,12 +278,12 @@ nav ul li a {
   border-radius: 3px;
   text-transform: uppercase;
 }
-a.active,
+a.navbar__link_active,
 a:hover {
   background: #1b9bff;
   transition: 0.5s;
 }
-.checkbtn {
+.navbar__label {
   font-size: 30px;
   color: white;
   float: right;
@@ -292,11 +292,11 @@ a:hover {
   cursor: pointer;
   display: none;
 }
-#check {
+#navbar__check {
   display: none;
 }
 
-.navList li a:focus {
+.navbar__list li a:focus {
   background-color: #0082e6;
   color: #0082e6;
 }
@@ -352,7 +352,7 @@ a:hover {
     font-size: 16px;
   }
 
-  .checkbtn {
+  .navbar__label {
     display: block;
   }
   nav ul {
@@ -375,22 +375,22 @@ a:hover {
     font-size: 20px;
   }
   a:hover,
-  a.active {
+  a.navbar__link_active {
     background-color: none;
     background: none;
     color: #0082e6;
   }
-  #check:checked ~ ul {
+  #navbar__check:checked ~ ul {
     left: -50%;
   }
 }
 
 @media (max-width: 600px) {
-  .logo {
+  .navbar__logo {
     padding: 5px 0px 5px 20px !important;
     font-size: 20px !important;
   }
-  .navList li a {
+  .navbar__list li a {
     font-size: 10px !important;
   }
 }
@@ -399,7 +399,7 @@ a:hover {
   nav ul li {
     margin: 50px 0px 50px 130px;
   }
-  .navList li a {
+  .navbar__list li a {
     font-size: 10px !important;
   }
 }
