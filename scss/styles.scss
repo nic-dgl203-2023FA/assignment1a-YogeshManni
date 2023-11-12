@@ -1,0 +1,31 @@
+$color_1: #343434;
+$color_2: orange;
+$color_3: #f7fff7;
+$color_4: white;
+$color_5: #0082e6;
+$color_6: #fff;
+$color_7: #000;
+$color_8: black;
+$font-family_1: "Montserrat", sans-serif;
+$font-family_2: "Fuggles", cursive;
+$font-family_3: "Martian Mono", monospace;
+$font-family_4: Arial, sans-serif;
+$background-color_1: #0082e6;
+$background-color_2: none;
+$background-color_3: #333;
+$background-color_4: #0074d9;
+$background-color_5: #ff4136;
+$border-color_1: #aaa;
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+@mixin content-wrap {
+  width: 85%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 60px 0;
+}
