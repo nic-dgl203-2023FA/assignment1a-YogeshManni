@@ -2,4 +2,65 @@
 *::after,
 *::before {
   box-sizing: border-box;
+}
+
+@keyframes moveBackAndForth {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100px);
+  }
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: blue;
+  }
+}
+@keyframes flipUpDown {
+  0% {
+    transform: perspective(800px) rotateX(0deg);
+  }
+  50% {
+    transform: perspective(800px) rotateX(180deg);
+  }
+  100% {
+    transform: perspective(800px) rotateX(0deg);
+  }
+}
+@keyframes scaleEffect {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.5);
+  }
+}
+/*********** Aniamtion 2 file css ****************/
+@keyframes movePath {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(300px);
+  }
+}
+@keyframes slideIn {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }/*# sourceMappingURL=styles.css.map */
